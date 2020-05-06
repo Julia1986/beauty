@@ -1,0 +1,91 @@
+@media all and (max-width: 769px) {
+    /*header*/
+    .container{
+        margin: 0 20px;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    .header-main__logo img{
+        top: 20px;
+        left: 0;
+        max-width: 150px;
+    }
+    .header-main__menu span,
+    .header-main__menu span::before,
+    .header-main__menu span::after {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 4px;
+        background-color: #995797;
+    }
+    .header-main__menu span::before {
+        content: '';
+        top: 10px;
+    }
+    .header-main__menu span::after {
+        content: '';
+        top: -10px;
+    }
+    #menu-name{
+        position: absolute;
+        top: 50px;
+        right: 20px;
+    }
+    .closebtn{
+        font-size: 5rem;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0; 
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden; 
+        padding-top: 60px; 
+        transition: 0.5s; 
+    }
+    .sidenav a {
+        padding: 15px 8px 15px 8px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .header-info {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+    .header-info{
+        text-align: center;
+        padding-top: 240px;
+    }
+    .header-info__link{
+        text-align: center;
+        margin-top: 70px;
+    }
+    .header-info__link a{
+        padding: 15px 50px;
+        font-size: 2rem;
+        word-spacing: 5px;
+    }
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+}
