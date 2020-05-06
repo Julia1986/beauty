@@ -88,4 +88,39 @@
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
     }
+/*#service*/
+#service{
+    height: auto;
+    padding-bottom: 60px;
+}
+h2{
+    font-size: 4rem;
+}
+.service-title{
+    padding: 50px 0 40px 0;
+}
+.border-group__line{
+    width: 150px;
+    margin: 0 50px;
+}
+.service-text{
+    padding-top: 40px;
+}
+.service-items__group{
+    justify-content: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+.service-item{
+    max-width: 400px;
+    margin: 30px;
+}
+.service-item__title{
+    height: 150px;
+    padding: 40px 15px;
+}
+.service-item__text{
+    padding: 40px 15px;
+    height: 220px;
+}
 }

@@ -51,6 +51,9 @@ span {
 .service-items__group{
     padding-top: 50px;
 }
+.service-item__title{
+    padding: 40px 15px;
+}
 .service-item{
     max-width: 350px;
     margin: 30px;

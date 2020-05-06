@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Infant:300,400,500,600,700&display=swap');
 html{
     font-size: 10px;
+    overflow-x: hidden;
 }
 .container{
     max-width: 1170px;
@@ -128,7 +129,6 @@ a:hover{
 }
 .service-item__title{
     font-family: 'Cormorant', serif;
-    padding: 40px 15px;
     font-weight: bald;
     color: #e1cdcd;
     background: #591F58;
