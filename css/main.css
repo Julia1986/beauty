@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant:300,400,500,600,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant:300,400,500,600,700&display=swap');
 html{
     font-size: 10px;
 }
@@ -22,13 +23,18 @@ h1{
     color: #bebebe;
 }
 h2{
-    font-size: 3rem;
+    font-family: 'Cormorant Infant', serif;
+    font-style: italic;
+    font-size: 6rem;
+    font-weight: 400;
+    text-shadow: 1px -1px 1px black;
+    color: #732871;
 }
 h3{
     font-size: 2.8rem;
 }
 p{
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 li{
     list-style: none;
@@ -37,7 +43,7 @@ a,
 a:hover{
     text-decoration: none;
 }
-/*header*/
+/*#header*/
 #header{
     position: relative;
     height: 100vh;
@@ -80,4 +86,80 @@ a:hover{
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
     background: linear-gradient(75deg, #B281B1 0%, #995797 25%, #802d7e 50%, #732871 75%, #591F58 100%);
     font-weight: 700;
+}
+
+/*#service*/
+#service{
+    height: 100vh;
+    background: #e1cdcd;
+    text-align: center;
+}
+.border-group{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.border-group__line{
+    border-bottom: 2px solid #591F58;
+}
+.square{
+    position: absolute;
+    margin: auto;
+    top: -15px;
+    width: 30px;
+    height: 30px;
+    background: #591F58;
+    transform: rotate(45deg); 
+}
+.service-text,
+.service-item__text{
+    color: #802d7e;
+    font-weight: bold;
+}
+.service-items__group{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service-item{
+    border: 5px solid transperent;
+}
+.service-item__title{
+    font-family: 'Cormorant', serif;
+    padding: 40px 15px;
+    font-weight: bald;
+    color: #e1cdcd;
+    background: #591F58;
+    border: 5px solid #591F58;
+}
+.service-item__text{
+    position: relative;
+    border-left: 5px solid #bebebe;
+    border-right: 5px solid #bebebe;
+    border-bottom: 5px solid #bebebe;
+}
+.service-item__text:hover{
+    border-left: 5px solid #591F58;
+    border-right: 5px solid #591F58;
+    border-bottom: 5px solid #591F58;
+}
+.service-item__link{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #591F58;
+}
+.fa-arrow-right{
+    padding-left: 10px;
+    color: #995797;
+}
+.service-item__link:hover,
+.fa-arrow-right:hover{
+    color: #707070;
+    font-weight: bold;
 }

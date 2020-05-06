@@ -36,4 +36,27 @@ span {
     font-size: 2rem;
     word-spacing: 5px;
 }
+
+/*#service*/
+.service-title{
+    padding: 70px 0 40px 0;
+}
+.border-group__line{
+    width: 150px;
+    margin: 0 50px;
+}
+.service-text{
+    padding-top: 60px;
+}
+.service-items__group{
+    padding-top: 50px;
+}
+.service-item{
+    max-width: 350px;
+    margin: 30px;
+}
+.service-item__text{
+    padding: 40px 15px;
+    min-height: 180px;
+}
 }
