@@ -105,7 +105,8 @@ h2{
     width: 150px;
     margin: 0 50px;
 }
-.service-text{
+.service-text,
+.information-text{
     padding-top: 40px;
 }
 .service-items__group{
@@ -131,6 +132,31 @@ h2{
 .service-item__link{
     bottom: 30px;
 }
+.about-block__image{
+    display: none;
+}
+.about-block__image-md{
+    background-image: url(../img/about-fon-md.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 100%;
+}
+.about-block__info{
+    padding: 30px 20px;
+}
+.about-block__info-title{
+    font-size: 4rem;
+    padding: 50px 0;
+}
+.about-block__info-description{
+    font-size: 2.3rem;
+    padding: 50px 20px;
+}
+.about-block__info-text{
+    font-size: 2rem;
+    padding: 0 30px 50px 30px;
+}
 }
 @media all and (max-width: 400px) {
     .container{
@@ -151,10 +177,7 @@ h2{
         padding: 30px 15px;
         height: 200px;
     }
-    /*#about*/
-#about{
-    padding-bottom: 40px;
-}
+/*#about*/
 .about-block__image{
     display: none;
 }
@@ -162,7 +185,7 @@ h2{
     background-image: url(../img/about-fon-md.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100px;
+    height: 150px;
     width: 100%;
 }
 .about-block__info{
@@ -178,6 +201,6 @@ h2{
 }
 .about-block__info-text{
     font-size: 2rem;
-    padding: 0 30px 20px 50px;
+    padding: 0 30px 20px 30px;
 }
 }
