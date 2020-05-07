@@ -62,4 +62,28 @@ span {
     padding: 40px 15px;
     min-height: 180px;
 }
+
+/*#about*/
+.about-block__image{
+    background-image: url(../img/about-fon-max.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.about-block__info{
+    padding: 70px 20px;
+}
+.about-block__info-title{
+    font-size: 6rem;
+    padding: 20px 0;
+}
+.about-block__info-description{
+    font-size: 3rem;
+    padding: 40px 20px;
+}
+.about-block__info-text{
+    font-size: 2.5rem;
+    padding: 0 50px 20px 50px;
+}
 }

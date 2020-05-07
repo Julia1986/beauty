@@ -6,6 +6,9 @@
     h1{
         font-size: 4rem;
     }
+    #header{
+        background-image: url(../img/header-bg-sm.png);
+    }
     .header-main__logo img{
         top: 20px;
         left: 0;
@@ -33,9 +36,6 @@
         top: 50px;
         right: 20px;
     }
-    .closebtn{
-        font-size: 5rem;
-    }
     .sidenav {
         height: 100%;
         width: 0;
@@ -57,15 +57,17 @@
         display: block;
         transition: 0.3s;
     }
-    .sidenav a:hover {
-        color: #f1f1f1;
+    .sidenav a:hover,
+    .sidenav a:active {
+        color: #995797;
     }
     .sidenav .closebtn {
         position: absolute;
-        top: 20px;
-        right: 25px;
-        font-size: 36px;
+        top: -20px;
+        right: 20px;
+        font-size: 76px;
         margin-left: 50px;
+        color: #995797;
     }
     .header-info {
         transition: margin-left .5s;
@@ -73,21 +75,21 @@
     }
     .header-info{
         text-align: center;
-        padding-top: 240px;
+        padding-top: 250px;
+    }
+    .header-info__title > h1 {
+        font-size: 5rem;
     }
     .header-info__link{
         text-align: center;
         margin-top: 70px;
     }
     .header-info__link a{
-        padding: 15px 50px;
+        padding: 15px 30px;
         font-size: 2rem;
         word-spacing: 5px;
     }
-    @media screen and (max-height: 450px) {
-        .sidenav {padding-top: 15px;}
-        .sidenav a {font-size: 18px;}
-    }
+
 /*#service*/
 #service{
     height: auto;
@@ -120,7 +122,62 @@ h2{
     padding: 40px 15px;
 }
 .service-item__text{
-    padding: 40px 15px;
-    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 15px;
+    height: 240px;
+}
+.service-item__link{
+    bottom: 30px;
+}
+}
+@media all and (max-width: 400px) {
+    .container{
+        margin: 0 10px;
+    }
+    .header-info{
+        text-align: center;
+        padding-top: 270px;
+    }
+    .header-info__title > h1 {
+        font-size: 3.5rem;
+    }
+    .header-info__link a{
+        padding: 15px 30px;
+        font-size: 1.6rem;
+    }
+    .service-item__text {
+        padding: 30px 15px;
+        height: 200px;
+    }
+    /*#about*/
+#about{
+    padding-bottom: 40px;
+}
+.about-block__image{
+    display: none;
+}
+.about-block__image-md{
+    background-image: url(../img/about-fon-md.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100%;
+}
+.about-block__info{
+    padding: 30px 20px;
+}
+.about-block__info-title{
+    font-size: 4rem;
+    padding: 50px 0;
+}
+.about-block__info-description{
+    font-size: 2.3rem;
+    padding: 50px 20px;
+}
+.about-block__info-text{
+    font-size: 2rem;
+    padding: 0 30px 20px 50px;
 }
 }

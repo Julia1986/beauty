@@ -91,9 +91,10 @@ a:hover{
 
 /*#service*/
 #service{
-    height: 100vh;
+    /*height: 100vh;*/
     background: #e1cdcd;
     text-align: center;
+    padding-bottom: 120px;
 }
 .border-group{
     position: relative;
@@ -101,10 +102,10 @@ a:hover{
     flex-direction: row;
     justify-content: center;
 }
-.border-group__line{
+#service .border-group__line{
     border-bottom: 2px solid #591F58;
 }
-.square{
+#service .square{
     position: absolute;
     margin: auto;
     top: -15px;
@@ -163,3 +164,47 @@ a:hover{
     color: #707070;
     font-weight: bold;
 }
+
+/*#about*/
+#about{
+    position: relative;
+    width: 100%;
+    background: #591F58;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-block{
+    display: flex;
+    justify-content: center;
+}
+.about-block__info{
+    width: 100%;
+}
+#about .border-group__line{
+    border-bottom: 2px solid #e1cdcd;
+}
+about-block__image-md{
+    display: none;
+}
+#about .square{
+    position: absolute;
+    margin: auto;
+    top: -15px;
+    width: 30px;
+    height: 30px;
+    background: #e1cdcd;
+    transform: rotate(45deg); 
+}
+.about-block__info-title{
+    color: #e1cdcd;
+}
+.about-block__info-description{
+    color: #e1cdcd;
+    font-style: italic;
+    font-weight: 700;
+}
+.about-block__info-text{
+    color: #e1cdcd;
+    font-weight: 500;
+}
+

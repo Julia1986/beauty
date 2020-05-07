@@ -75,4 +75,30 @@
     padding: 40px 15px;
     height: 180px;
 }
+/*#about*/
+.about-block__image{
+    display: none;
+}
+.about-block__image-md{
+    background-image: url(../img/about-fon-md.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 100%;
+}
+.about-block__info{
+    padding: 30px 20px;
+}
+.about-block__info-title{
+    font-size: 4rem;
+    padding: 50px 0;
+}
+.about-block__info-description{
+    font-size: 2.6rem;
+    padding: 50px 20px;
+}
+.about-block__info-text{
+    font-size: 2.2rem;
+    padding: 0 30px 20px 50px;
+}
 }
