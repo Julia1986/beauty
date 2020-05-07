@@ -88,4 +88,21 @@ span {
     font-size: 2.5rem;
     padding: 0 50px 20px 50px;
 }
+
+/*information*/
+#information{
+    padding: 50px 0 120px 0;
+}
+#information h3{
+    font-size: 6rem;
+}
+.information-items__group{
+    padding-top: 50px;
+}
+#information .number{
+    font-size: 6rem;
+}
+.information-item__title{
+    font-size: 3rem;
+}
 }

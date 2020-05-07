@@ -157,6 +157,30 @@ h2{
     font-size: 2rem;
     padding: 0 30px 50px 30px;
 }
+/*information*/
+#information{
+    padding: 50px 0 40px 0;
+}
+#information h3{
+    font-size: 4rem;
+    padding-bottom: 40px;
+}
+.information-items__group{
+    padding-top: 40px;
+    flex-direction: column;
+}
+.information-item{
+    padding: 0 0 50px 0;
+}
+#information .number{
+    font-size: 4rem;
+}
+.information-item__title{
+    font-size: 2.2rem;
+}
+.information-text{
+    padding-top: 40px;
+}
 }
 @media all and (max-width: 400px) {
     .container{

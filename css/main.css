@@ -214,11 +214,9 @@ about-block__image-md{
 /*information*/
 #information{
     text-align: center;
-    padding-bottom: 100px;
 }
 #information h3{
     font-family: 'Cormorant Infant', serif;
-    font-size: 6rem;
     font-weight: 600;
     text-shadow: 1px -1px 1px black;
     color: #732871;
@@ -227,19 +225,16 @@ about-block__image-md{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 50px;
 }
 #information .number{
     font-family: 'Cormorant Infant', serif;
     font-style: italic;
-    font-size: 6rem;
     font-weight: 600;
     text-shadow: 1px -1px 1px black;
     color: #732871;
 }
 .information-item__title{
     font-family: 'Cormorant Infant', serif;
-    font-size: 3rem;
     font-weight: 500;
     color: #732871;
 }
