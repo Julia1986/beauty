@@ -74,6 +74,7 @@ a:hover{
 .sidenav a:hover{
     color: #bebebe;
 }
+.service-button > a,
 .header-info__link a{
     background: #995797;
     color: #e9e9e9;
@@ -81,6 +82,7 @@ a:hover{
     text-shadow: 1px -1px 3px black;
     font-weight: 700;
 }
+.service-button > a:hover,
 .header-info__link a:hover{
     color: #bebebe;
     text-shadow: 1px -1px 3px black;
@@ -91,8 +93,6 @@ a:hover{
 
 /*#service*/
 #service{
-    /*height: 100vh;*/
-    background: #c5c5c5;
     text-align: center;
     padding-bottom: 120px;
 }
@@ -240,15 +240,20 @@ about-block__image-md{
 }
 /*gallery*/
 #gallery{
-    background: #591F58;
+    position: relative;
+    background-image: linear-gradient(hsl(304, 64%, 78%), hsl(304, 64%, 78%)),
+    linear-gradient(hsl(302, 80%, 31%), hsl(302, 80%, 31%)),
+    url(../img/flower-fon.jpg);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .gallery-title{
-    color: #e1cdcd;
+    color: #591F58;
     font-family: 'Cormorant Infant', serif;
     font-style: italic;
-    font-weight: 400;
-    text-shadow: 1px -1px 1px black;
-    text-align: center;
+    font-weight: 700;
+    text-align: left;
 }
 /* Position the image container (needed to position the left and right arrows) */
 .container {
@@ -326,5 +331,5 @@ about-block__image-md{
     height: 100px;
 }
 .mySlides img{
-    height: 650px;
+    height: 30%;
 }

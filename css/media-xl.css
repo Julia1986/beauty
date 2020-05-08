@@ -31,6 +31,7 @@ span {
     text-align: left;
     margin-top: 70px;
 }
+.service-button > a,
 .header-info__link a{
     padding: 15px 50px;
     font-size: 2rem;
@@ -62,7 +63,10 @@ span {
 }
 .service-item__text{
     padding: 40px 15px;
-    min-height: 180px;
+    height: 220px;
+}
+.service-button{
+    margin-top: 70px;
 }
 
 /*#about*/
@@ -108,7 +112,7 @@ span {
 
 /*gallery*/
 #gallery{
-    padding-bottom: 100px;
+    padding-bottom: 250px;
 }
 .gallery-title{
     font-size: 6rem;
@@ -121,8 +125,5 @@ span {
 }
 .slide-image img{
     height: 100px;
-}
-.mySlides img{
-    height: 650px;
 }
 }

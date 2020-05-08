@@ -38,6 +38,7 @@
         text-align: center;
         margin-top: 100px;
     }
+    .service-button > a,
     .header-info__link a{
         padding: 15px 50px;
         font-size: 2rem;
@@ -76,7 +77,13 @@
     padding: 40px 15px;
     height: 180px;
 }
+.service-button{
+    margin-top: 50px;
+}
 /*#about*/
+#about{
+    padding-bottom: 120px;
+}
 .about-block__image{
     display: none;
 }
@@ -124,7 +131,7 @@
 
 /*gallery*/
 #gallery{
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 .gallery-title{
     font-size: 5rem;
@@ -137,8 +144,5 @@
 }
 .slide-image img{
     height: 80px;
-}
-.mySlides img{
-    height: 350px;
 }
 }

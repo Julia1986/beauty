@@ -34,6 +34,7 @@
         text-align: left;
         margin-top: 70px;
     }
+    .service-button > a,
     .header-info__link a{
         padding: 15px 50px;
         font-size: 2rem;
@@ -69,6 +70,9 @@
 .service-item__text{
     padding: 40px 15px;
     height: 220px;
+}
+.service-button{
+    margin-top: 50px;
 }
 
 /*#about*/
@@ -114,7 +118,7 @@
 
 /*gallery*/
 #gallery{
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 .gallery-title{
     font-size: 6rem;
@@ -127,8 +131,5 @@
 }
 .slide-image img{
     height: 100px;
-}
-.mySlides img{
-    height: 500px;
 }
 }
