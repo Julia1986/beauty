@@ -333,3 +333,13 @@ about-block__image-md{
 .mySlides img{
     height: 30%;
 }
+
+/*#response*/
+#response{
+    position: relative;
+    background-image: url(../img/response-fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
