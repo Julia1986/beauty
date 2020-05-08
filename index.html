@@ -22,7 +22,7 @@
                     <nav id="mySidenav" class="sidenav">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <a href="#">Услуги</a>
-                        <a href="#">Запись</a>
+                        <a href="#">О студии</a>
                         <a href="#">Галерея</a>
                         <a href="#">Отзывы</a>
                         <a href="#">Контакты</a>
@@ -94,7 +94,7 @@
                         <div class="border-group__line"></div>
                     </div>
                     <p class="about-block__info-description">
-                        Наша профессиональная команда уже более более трех лет дарит взгляду наших клиентов выразительность. <br>
+                        Наша профессиональная команда уже более трех лет дарит взгляду наших клиентов выразительность. <br>
                         С нами Вы увидите, сколько времени можно ежедневно экономить, заменив make-up глаз процедурой наращивания.
                     </p>
                     <p class="about-block__info-text">
@@ -109,7 +109,7 @@
 
     <section id="information">
         <div class="container">
-            <h3 class="information-title">Почему выбирают нашу студию</h3>
+            <h3 class="information-title">Почему выбирают нас</h3>
             <div class="border-group">
                 <div class="border-group__line"></div>
                 <div class="square"></div>
@@ -137,11 +137,73 @@
         </div>
     </section>
 
-    <section id="review">
+    <section id="gallery">
         <div class="container">
+            <h3 class="gallery-title">Галерея наших работ</h3>
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="img/slide-1.jpg" style="width:100%">
+            </div>
             
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="img/slide-2.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="img/slide-3.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="img/slide-4.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="img/slide-5.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="img/slide-6.jpg" style="width:100%">
+            </div>
+            
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+              <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            
+              <!-- Thumbnail images -->
+            <div class="row slide-image">
+                <div class="column">
+                    <img class="demo cursor" src="img/slide-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Our work (lashes # 1)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/slide-2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Our work (lashes # 2)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/slide-3.png" style="width:100%" onclick="currentSlide(3)" alt="Our work (lashes # 3)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/slide-4.png" style="width:100%" onclick="currentSlide(4)" alt="Our work (lashes # 4)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/slide-5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Our work (lashes # 5)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/slide-6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Our work (lashes # 6)">
+                </div>
+              </div>
+            </div>
         </div>
     </section>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>

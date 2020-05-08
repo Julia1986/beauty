@@ -25,7 +25,7 @@ span {
     margin-right: 0;
 }
 .header-info{
-    padding-top: 120px;
+    padding-top: 15%;
 }
 .header-info__link{
     text-align: left;
@@ -104,5 +104,25 @@ span {
 }
 .information-item__title{
     font-size: 3rem;
+}
+
+/*gallery*/
+#gallery{
+    padding-bottom: 100px;
+}
+.gallery-title{
+    font-size: 6rem;
+    padding: 70px 0;
+}
+.numbertext {
+    font-size: 1.8rem;
+    padding: 8px 12px;
+    top: 22%;
+}
+.slide-image img{
+    height: 100px;
+}
+.mySlides img{
+    height: 650px;
 }
 }
