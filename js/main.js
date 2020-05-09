@@ -38,5 +38,8 @@ function showSlides(n) {
 }
 
 $(function(){
-  $('.slider-inner').slick();
+  $('.slider-inner').slick({
+  nextArrow: '<button type="button" class="slick-btn slick-next"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>',
+  prevArrow: '<button type="button" class="slick-btn slick-prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>',
+});
 });
