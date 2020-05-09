@@ -126,4 +126,7 @@ span {
 .slide-image img{
     height: 100px;
 }
+.mySlides img{
+    height: 600px;
+}
 }

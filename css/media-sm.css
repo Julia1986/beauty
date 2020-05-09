@@ -213,12 +213,19 @@ h2{
     height: 72px;
 }
 .mySlides img{
-    height: 30%;
+    height: 320px;
 }
 .slide-image{
     display: none;
 }
 }
+
+@media all and (max-width: 550px) {
+    .mySlides img{
+        height: 250px;
+    }
+}
+
 
 @media all and (max-width: 420px) {
     .container{

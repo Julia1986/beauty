@@ -145,4 +145,12 @@
 .slide-image img{
     height: 80px;
 }
+.mySlides img{
+    height: 450px;
+}
+}
+@media all and (max-width: 420px){
+    .mySlides img{
+        height: 420px;
+    }
 }
