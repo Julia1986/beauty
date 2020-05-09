@@ -42,8 +42,6 @@
     }
 
 /*#service*/
-.border-group{
-}
 .service-title,
 .information-title{
     padding: 50px 0 40px 0;
@@ -134,5 +132,39 @@
 }
 .mySlides img{
     height: 550px;
+}
+
+/*#response*/
+#response{
+    min-height: 650px;
+    padding: 0 30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-item{
+    padding-top: 230px;
+    min-width: 400px;
+    font-size: 2.5rem;
+    margin: 0 120px;
+}
+.slider-autor{
+    margin: 20px 0;
+}
+.slick-prev,
+.slick-next{
+    top: 65%;
+}
+.slick-prev{
+    left: -20px;
+}
+.slick-next{
+    right: -20px;
+}
+#response .fa-arrow-right,
+#response .fa-arrow-left{
+    padding: 10px;
+    font-size: 2rem;
 }
 }

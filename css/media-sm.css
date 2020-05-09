@@ -218,11 +218,76 @@ h2{
 .slide-image{
     display: none;
 }
+/*#response*/
+#response{
+    min-height: 450px;
+    padding: 0 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.slider-item{
+    padding-top: 160px;
+    min-width: 320px;
+    font-size: 2rem;
+    margin: 0 20px;
+}
+.slider-autor{
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+.slick-prev,
+.slick-next{
+    top: 65%;
+}
+.slick-prev{
+    left: -30px;
+}
+.slick-next{
+    right: -30px;
+}
+#response .fa-arrow-right,
+#response .fa-arrow-left{
+    padding: 10px;
+    font-size: 2rem;
+}
 }
 
 @media all and (max-width: 550px) {
     .mySlides img{
         height: 250px;
+    }
+    #response{
+        min-height: 450px;
+        padding: 0 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .slider-item{
+        padding-top: 160px;
+        min-width: 320px;
+        font-size: 1.8rem;
+        margin: 0 20px;
+    }
+    .slider-autor{
+        margin: 10px 0;
+        font-size: 1.4rem;
+    }
+    .slick-prev,
+    .slick-next{
+        top: 65%;
+    }
+    .slick-prev{
+        left: -30px;
+    }
+    .slick-next{
+        right: -30px;
+    }
+    #response .fa-arrow-right,
+    #response .fa-arrow-left{
+        padding: 10px;
+        font-size: 2rem;
     }
 }
 
@@ -308,5 +373,39 @@ h2{
 }
 .slide-image{
     display: none;
+}
+#response{
+    background-image: url(../img/response-fon-miny.png);
+    padding: 0 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.slick-list{
+    height: 330px;
+}
+.slider-item{
+    min-width: 180px;
+    font-size: 1.4rem;
+    margin: 0 20px;
+}
+.slider-autor{
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+.slick-prev,
+.slick-next{
+    top: 65%;
+}
+.slick-prev{
+    left: -20px;
+}
+.slick-next{
+    right: -20px;
+}
+#response .fa-arrow-right,
+#response .fa-arrow-left{
+    padding: 10px;
+    font-size: 2rem;
 }
 }
