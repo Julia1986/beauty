@@ -92,7 +92,8 @@ a:hover{
 }
 
 /*#service*/
-#service{
+#service,
+#price{
     text-align: center;
     padding-bottom: 120px;
 }
@@ -103,10 +104,12 @@ a:hover{
     justify-content: center;
 }
 #service .border-group__line,
+#price .border-group__line,
 #information .border-group__line{
     border-bottom: 2px solid #591F58;
 }
 #service .square,
+#price .square,
 #information .square{
     position: absolute;
     margin: auto;
@@ -117,39 +120,46 @@ a:hover{
     transform: rotate(45deg); 
 }
 .service-text,
+.price-text,
 .information-text,
 .service-item__text{
     color: #802d7e;
     font-weight: bold;
 }
-.service-items__group{
+.service-items__group,
+.price-items__group{
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.service-item{
+.service-item,
+.price-item{
     border: 5px solid transperent;
 }
-.service-item__title{
+.service-item__title,
+.price-item__title{
     font-family: 'Cormorant', serif;
     font-weight: bald;
     color: #e1cdcd;
     background: #591F58;
     border: 5px solid #591F58;
 }
-.service-item__text{
+.service-item__text,
+.price-item__text{
     position: relative;
     border-left: 5px solid #bebebe;
     border-right: 5px solid #bebebe;
     border-bottom: 5px solid #bebebe;
 }
-.service-item__text:hover{
+.service-item__text:hover,
+.price-item__text:hover{
     border-left: 5px solid #591F58;
     border-right: 5px solid #591F58;
     border-bottom: 5px solid #591F58;
 }
-.service-item__link{
+.service-item__link,
+.price-item__link{
     position: absolute;
     bottom: 10px;
     right: 0;
@@ -163,6 +173,7 @@ a:hover{
     color: #995797;
 }
 .service-item__link:hover,
+.price-item__link:hover,
 .fa-arrow-right:hover{
     color: #707070;
     font-weight: bold;

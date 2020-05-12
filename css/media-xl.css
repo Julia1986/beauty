@@ -40,6 +40,7 @@ span {
 
 /*#service*/
 .service-title,
+.price-title,
 .information-title{
     padding: 70px 0 40px 0;
 }
@@ -48,20 +49,25 @@ span {
     margin: 0 50px;
 }
 .service-text,
+.price-text,
 .information-text{
     padding-top: 60px;
 }
-.service-items__group{
+.service-items__group,
+.price-items__group{
     padding-top: 50px;
 }
-.service-item__title{
+.service-item__title,
+.price-item__title{
     padding: 40px 15px;
 }
-.service-item{
+.service-item,
+.price-item{
     max-width: 350px;
     margin: 30px;
 }
-.service-item__text{
+.service-item__text,
+.price-item__text{
     padding: 40px 15px;
     height: 220px;
 }

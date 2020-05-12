@@ -92,14 +92,16 @@
     }
 
 /*#service*/
-#service{
+#service,
+#price{
     height: auto;
     padding-bottom: 60px;
 }
 h2{
     font-size: 4rem;
 }
-.service-title{
+.service-title,
+.price-title{
     padding: 50px 0 40px 0;
 }
 .border-group__line{
@@ -107,23 +109,28 @@ h2{
     margin: 0 50px;
 }
 .service-text,
+.price-text,
 .information-text{
     padding-top: 40px;
 }
-.service-items__group{
+.service-items__group,
+.price-items__group{
     justify-content: center;
     padding-top: 40px;
     flex-wrap: wrap;
 }
-.service-item{
+.service-item,
+.price-item{
     max-width: 400px;
     margin: 30px;
 }
-.service-item__title{
+.service-item__title,
+.price-item__title{
     height: 150px;
     padding: 40px 15px;
 }
-.service-item__text{
+.service-item__text,
+.price-item__text{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -131,7 +138,8 @@ h2{
     height: 240px;
     font-size: 2.3rem;
 }
-.service-item__link{
+.service-item__link,
+.price-item__link{
     bottom: 30px;
 }
 .service-button{
@@ -192,6 +200,10 @@ h2{
     height: 180px;
     margin: 15px auto;
 }
+.information-item:hover{
+    background: #732871;
+    color: white;
+}
 /*gallery*/
 #gallery{
     padding-bottom: 80px;
@@ -207,11 +219,11 @@ h2{
 }
 .prev,
 .next{
-    top: 65%;
+    top: 50%;
 }
-.slide-image img{
+/*.slide-image img{
     height: 72px;
-}
+}*/
 .mySlides img{
     height: 320px;
 }
@@ -220,14 +232,14 @@ h2{
 }
 /*#response*/
 #response{
-    min-height: 450px;
+    min-height: 268px;
     padding: 0 30px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .slider-item{
-    padding-top: 160px;
+    padding-top: 70px;
     min-width: 320px;
     font-size: 2rem;
     margin: 0 20px;
@@ -238,7 +250,7 @@ h2{
 }
 .slick-prev,
 .slick-next{
-    top: 65%;
+    top: 55%;
 }
 .slick-prev{
     left: -30px;
@@ -258,14 +270,14 @@ h2{
         height: 250px;
     }
     #response{
-        min-height: 450px;
+        min-height: 250px;
         padding: 0 30px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
     }
     .slider-item{
-        padding-top: 160px;
+        padding-top: 60px;
         min-width: 320px;
         font-size: 1.8rem;
         margin: 0 20px;
@@ -276,7 +288,7 @@ h2{
     }
     .slick-prev,
     .slick-next{
-        top: 65%;
+        top: 50%;
     }
     .slick-prev{
         left: -30px;
@@ -385,7 +397,8 @@ h2{
     height: 330px;
 }
 .slider-item{
-    min-width: 180px;
+    min-width: 170px;
+    padding-top: 100px;
     font-size: 1.4rem;
     margin: 0 20px;
 }
@@ -395,7 +408,7 @@ h2{
 }
 .slick-prev,
 .slick-next{
-    top: 65%;
+    top: 40%;
 }
 .slick-prev{
     left: -20px;
