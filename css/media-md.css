@@ -9,7 +9,7 @@
     .header-main__logo img{
         top: 50px;
         left: 0;
-        max-width: 150px;
+        max-width: 135px;
     }
     .closebtn,
     span{
@@ -20,9 +20,8 @@
         display: inline-block;
     }
     .sidenav a{
-        font-size: 2.2rem;
+        font-size: 2rem;
         padding: 10px 10px 10px 10px;
-        margin-right: 20px;
     }
     .sidenav a:hover{
         color: #bebebe;
@@ -39,6 +38,7 @@
         margin-top: 100px;
     }
     .service-button > a,
+    .price-button,
     .header-info__link a{
         padding: 15px 50px;
         font-size: 2rem;
@@ -74,13 +74,11 @@
     max-width: 400px;
     margin: 30px;
 }
-.service-item__title,
-.price-item__title{
+.service-item__title{
     height: 150px;
     padding: 40px 15px;
 }
-.service-item__text,
-.price-item__text{
+.service-item__text{
     padding: 40px 15px;
     height: 180px;
 }
@@ -188,6 +186,34 @@
 #response .fa-arrow-left{
     padding: 10px;
     font-size: 2rem;
+}
+.price-item{
+    min-height: 400px;
+    width: 350px;
+}
+.price-item__title{
+    height: 50px;
+}
+.price-item__img{
+    height: 120px;
+}
+.price-item img{
+    width: 200px;
+    height: 80px;
+    margin: 30px 0 0 0;
+}
+.price-item__title{
+    margin: 0 0 10px 0;
+}
+.price-items__group{
+    flex-wrap: wrap;
+}
+.price-item__title{
+    padding: 10px 15px;
+}
+.price-item__text{
+    padding: 40px 15px;
+    height: 140px;
 }
 }
 @media all and (max-width: 420px){
