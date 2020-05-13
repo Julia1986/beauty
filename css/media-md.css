@@ -39,6 +39,7 @@
     }
     .service-button > a,
     .price-button,
+    .info-btn,
     .header-info__link a{
         padding: 15px 50px;
         font-size: 2rem;
@@ -211,6 +212,23 @@
 }
 .price-item__amount{
     height: 80px;
+}
+/*#info*/
+#info{
+    min-height: 550px;
+}
+.info-group{
+    max-width: 450px;
+}
+.info-title{
+    font-size: 4.5rem;
+    line-height: 1.1;
+    padding: 60px 0 40px 0;
+}
+.info-text{
+    font-size: 2.5rem;
+    line-height: 1;
+    padding-bottom: 70px;
 }
 }
 @media all and (max-width: 420px){

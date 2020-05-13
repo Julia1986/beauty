@@ -404,3 +404,41 @@ about-block__image-md{
     font-weight: bold;
     margin-bottom: 25px;
 }
+
+/*#info*/
+#info{
+    background-image: url(../img/info-fon.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-group{
+    display: flex;
+    flex-direction: column;
+}
+.info-title{
+    color: #e1cdcd;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 700;
+    text-shadow: 1px -1px 1px black;
+}
+.info-text{
+    color: #e1cdcd;
+    font-weight: 600;
+    text-shadow: 1px -1px 1px #732871;
+}
+.info-btn{
+    background: #61065e;
+    color: #e9e9e9;
+    text-transform: uppercase;
+    text-shadow: 1px -1px 3px black;
+    font-weight: 700;
+}
+.info-btn:hover{
+    color: #bebebe;
+    text-shadow: 1px -1px 3px black;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(75deg, #a90aa4 0%, #790775 25%, #61065e 50%, #490547 75%, #31032f 100%);
+    font-weight: 700;
+}

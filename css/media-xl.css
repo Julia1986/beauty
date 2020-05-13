@@ -33,6 +33,7 @@ span {
 }
 .service-button > a,
 .price-button,
+.info-btn,
 .header-info__link a{
     padding: 15px 50px;
     font-size: 2rem;
@@ -173,7 +174,7 @@ span {
     padding-bottom: 120px;
 }
 .price-item{
-    min-height: 500px;
+    min-height: 520px;
     width: 350px;
 }
 .price-item__img{
@@ -181,15 +182,37 @@ span {
 }
 .price-item img{
     width: 200px;
-    height: 80px;
-    margin: 10px 0 0 0;
+    height: 100px;
+    margin: 20px 0 0 0;
 }
 .price-item__title,
 .price-item__text,
 .price-button{
     height: 100px;
 }
+.price-item__title,
+.price-button{
+    margin-top: 30px;
+}
 .price-item__amount{
     height: 80px;
+}
+
+/*#info*/
+#info{
+    min-height: 750px;
+}
+.info-group{
+    max-width: 600px;
+}
+.info-title{
+    font-size: 5rem;
+    line-height: 1.2;
+    padding: 130px 0 50px 0;
+}
+.info-text{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    padding-bottom: 75px;
 }
 }
