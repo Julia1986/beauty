@@ -95,7 +95,8 @@ a:hover{
 
 /*#service*/
 #service,
-#price{
+#price,
+#news{
     text-align: center;
     padding-bottom: 120px;
 }
@@ -107,12 +108,14 @@ a:hover{
 }
 #service .border-group__line,
 #price .border-group__line,
-#information .border-group__line{
+#information .border-group__line,
+#news .border-group__line{
     border-bottom: 2px solid #591F58;
 }
 #service .square,
 #price .square,
-#information .square{
+#information .square,
+#news .square{
     position: absolute;
     margin: auto;
     top: -15px;
@@ -224,7 +227,8 @@ about-block__image-md{
 #information{
     text-align: center;
 }
-#information h3{
+#information h3,
+.news-title{
     font-family: 'Cormorant Infant', serif;
     font-weight: 600;
     text-shadow: 1px -1px 1px black;
@@ -441,4 +445,34 @@ about-block__image-md{
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
     background: linear-gradient(75deg, #a90aa4 0%, #790775 25%, #61065e 50%, #490547 75%, #31032f 100%);
     font-weight: 700;
+}
+/*#news*/
+.news-item{
+    text-align: left;
+    padding: 30px 25px;
+    border: 1px solid #732871;
+    position: relative;
+}
+.news-item__link{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 700;
+    color: #732871;
+}
+.fa-arrow-down{
+    background: #732871;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+.news-item__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-item__wrapper-img img{
+    width: 500px;
+    padding: 25px;
 }
