@@ -169,6 +169,9 @@ span {
     font-size: 2rem;
 }
 /*#price*/
+#price{
+    padding-bottom: 120px;
+}
 .price-item{
     min-height: 500px;
     width: 350px;
@@ -179,13 +182,14 @@ span {
 .price-item img{
     width: 200px;
     height: 80px;
-    margin: 50px 0 0 0;
+    margin: 10px 0 0 0;
 }
-.price-item__title{
-    margin: 50px 0 20px 0;
+.price-item__title,
+.price-item__text,
+.price-button{
+    height: 100px;
 }
-.price-item__text{
-    margin: 40px 0 100px 0;
-    height: 50px;
+.price-item__amount{
+    height: 80px;
 }
 }

@@ -370,6 +370,8 @@ about-block__image-md{
 
 /*#price*/
 .price-item{
+    display: flex;
+    flex-direction: column;
     border: 5px solid #bebebe;
     position: relative;
 }
@@ -384,12 +386,21 @@ about-block__image-md{
     color: #802d7e;
     font-weight: bold;
 }
-.price-button > a{
+/*.price-button > a{
     position: absolute;
     margin: 0 auto;
-    top: 95%;
+    top: 92%;
+}*/
+.price-item__amount{
+    font-family: 'Cormorant Infant', serif;
+    font-style: italic;
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-shadow: 1px -1px 1px black;
+    color: #732871;
 }
 .price-button{
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 25px;
 }
