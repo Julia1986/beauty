@@ -505,3 +505,30 @@ about-block__image-md{
     font-weight: bold;
     color: #995797;
 }
+/*#footer*/
+.footer-contacts{
+    background-image: url(../img/footer.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+.footer-contacts:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.5;
+    z-index: 2;
+}
+.footer-contacts__wrapper {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    padding: 50px;  
+  }

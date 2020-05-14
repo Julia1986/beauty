@@ -221,7 +221,7 @@ span {
     padding: 50px 0 100px 0;
 }
 .news-item{
-    margin-bottom: 20px;
+    margin: 0 15px 20px 15px;
 }
 .news-title{
     font-size: 6rem;
