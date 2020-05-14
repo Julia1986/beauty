@@ -273,6 +273,43 @@
     font-size: 2rem;
     margin-top: 30px;
 }
+/*#footer*/
+.footer-contacts{
+    background-image: url(../img/footer-lg.png);
+    min-height: 600px;
+}
+.footer-contacts__wrapper{
+    width: 400px;
+    padding: 30px 25px 60px 25px;
+    top: 50%; /*выравниваем блок по центру экрана*/
+    left: 50%;
+    transform: translate(-90%, -50%);
+}
+.footer-contacts__title h6{
+    padding-bottom: 20px;
+}
+.footer-contacts__text p{
+    line-height: 1.4;
+    font-size: 2rem;
+}
+.footer-contacts__btn{
+    bottom: -10px;
+    transform: translateX(20%);
+    /*left: -10px;*/
+}
+.footer-contacts__btn a{
+    padding: 15px 30px;
+    font-size: 1.8rem;
+    bottom: 40px;
+    word-spacing: 5px;
+}
+.footer-copy{
+    height: 70px;
+}
+.footer-copy p{
+    font-size: 1.6rem;
+    padding-top: 25px;
+}
 }
 @media all and (max-width: 420px){
     .mySlides img{
