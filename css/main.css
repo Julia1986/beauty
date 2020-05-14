@@ -506,29 +506,24 @@ about-block__image-md{
     color: #995797;
 }
 /*#footer*/
+#footer{
+    display: flex;
+    flex-direction: column;
+}
 .footer-contacts{
     background-image: url(../img/footer.png);
-    background-color: rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
 }
-.footer-contacts:after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: black;
-    opacity: 0.5;
-    z-index: 2;
-}
-.footer-contacts__wrapper {
-    position: relative;
-    z-index: 3;
-    color: #fff;
+.footer-copy{
+    background: #121212;
+    height: 70px;
+    color: #e1cdcd;
     text-align: center;
-    padding: 50px;  
-  }
+}
+.footer-copy p{
+    font-size: 1.6rem;
+    padding-top: 25px;
+}
