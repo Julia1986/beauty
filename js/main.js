@@ -55,5 +55,5 @@ function hidetxt(type){
  if(show) show.style.display = "none";
  param.style.display = "block";
  show = param;
- }else param.style.display = "none"
+ }else param.style.display = "none";
 }
