@@ -6,6 +6,10 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
+  jQuery("#mySidenav a").on("click", function () {
+    jQuery(".mySidenav").removeClass("active");
+});
+
   var slideIndex = 1;
 showSlides(slideIndex);
 
